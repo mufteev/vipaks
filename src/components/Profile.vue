@@ -1,12 +1,12 @@
 <template>
   <div class="container p-4">
     <div class="row">
-      <div class="col-sm-6 col-12 text-md-end text-center">
+      <div class="col-md-6 col-12 text-lg-end text-center">
         <img :src="avatar_url"
              class="rounded avatar"
              alt="Аватар пользователя"/>
       </div>
-      <div class="col-sm-6 col-12 text-md-start text-center align-self-center">
+      <div class="col-md-6 col-12 text-lg-start text-center align-self-center">
         <a :href="html_url"
            class="link-primary display-5 text-decoration-none"
            target="_blank">

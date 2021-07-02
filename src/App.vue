@@ -75,5 +75,6 @@ html, body {
 }
 
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import "style/breakpoints";
 @import "style";
 </style>

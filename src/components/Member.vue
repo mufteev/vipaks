@@ -12,8 +12,8 @@
     </div>
     <div>
       <button @click="remove"
-              class="btn btn-sm btn-outline-danger">
-        Удалить
+              class="btn btn-sm btn-outline-danger px-3">
+        &minus;
       </button>
     </div>
   </div>

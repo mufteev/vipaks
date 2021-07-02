@@ -12,8 +12,8 @@
     </div>
     <div>
       <button @click="add"
-              class="btn btn-sm btn-outline-success">
-        Добавить
+              class="btn btn-sm btn-outline-success px-3">
+        &plus;
       </button>
     </div>
   </div>
