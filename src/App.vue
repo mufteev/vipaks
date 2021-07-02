@@ -19,9 +19,9 @@ const linkGetUsers = 'https://api.github.com/users?since=50000000';
 const linkGetProfile = 'https://api.github.com/users';
 const optionFetch = {
   method: 'GET',
-  headers: {
-    Authorization: 'token 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'
-  }
+  // headers: {
+  //   Authorization: 'token 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'
+  // }
 };
 const fetchJSON = (url) => fetch(url, optionFetch)
   .then(response => response.ok ? response.json() : Promise.reject());
