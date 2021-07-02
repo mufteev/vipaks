@@ -20,7 +20,7 @@ const linkGetProfile = 'https://api.github.com/users';
 const optionFetch = {
   method: 'GET',
   headers: {
-    Authorization: 'token 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'
+    Authorization: 'token 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'
   }
 };
 const fetchJSON = (url) => fetch(url, optionFetch)
